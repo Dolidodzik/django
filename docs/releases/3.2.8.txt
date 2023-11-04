@@ -15,3 +15,13 @@ Bugfixes
 * Fixed a regression in Django 3.2 that caused incorrect selection of items
   across all pages when actions were placed both on the top and bottom of the
   admin change-list view (:ticket:`33083`).
+
+
+==========
+Minor Features
+==========
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
